@@ -1,0 +1,18 @@
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
+plotly
+joblib
+jupyterlab
+xgboost
+lightgbm
+catboost
+imbalanced-learn
+mlflow
+pymongo
+python-dotenv
+PyYAML
+Flask
+-e .
