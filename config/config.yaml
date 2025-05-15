@@ -1,0 +1,46 @@
+columns:
+  - Machine_Type: category
+  - Temperature_C: float64
+  - Vibration_mms: float64
+  - Sound_dB: float64
+  - Oil_Level_pct: float64
+  - Coolant_Level_pct: float64
+  - Power_Consumption_kW: float64
+  - Maintenance_History_Count: float64
+  - Failure_History_Count: float64
+  - AI_Supervision: category
+  - Error_Codes_Last_30_Days: float64
+  - Remaining_Useful_Life_days: float64
+  - Failure_Within_7_Days: category
+
+
+
+outilers:
+  - Temperature_C: float64
+  - Vibration_mms: float64
+  - Sound_dB: float64
+  - Oil_Level_pct: float64
+  - Power_Consumption_kW: float64
+  - Maintenance_History_Count: float64
+  - Failure_History_Count: float64
+  - Error_Codes_Last_30_Days: float64
+
+
+
+numerical_features:
+  - Temperature_C: float64
+  - Vibration_mms: float64
+  - Sound_dB: float64
+  - Oil_Level_pct: float64
+  - Coolant_Level_pct: float64
+  - Power_Consumption_kW: float64
+  - Maintenance_History_Count: float64
+  - Failure_History_Count: float64
+  - Error_Codes_Last_30_Days: float64
+
+
+
+
+categorical_features:
+  - Machine_Type: category
+  - AI_Supervision: category
