@@ -1,0 +1,39 @@
+AI_Supervision:
+  drift_status: false
+  p_value: 0.9999999999999991
+Coolant_Level_pct:
+  drift_status: false
+  p_value: 0.44409624117871926
+Error_Codes_Last_30_Days:
+  drift_status: false
+  p_value: 0.9916081418332316
+Failure_History_Count:
+  drift_status: false
+  p_value: 0.9998002625224833
+Failure_Within_7_Days:
+  drift_status: false
+  p_value: 0.9999552515363448
+Machine_Type:
+  drift_status: false
+  p_value: 0.6165648051714506
+Maintenance_History_Count:
+  drift_status: false
+  p_value: 0.8184688461800622
+Oil_Level_pct:
+  drift_status: false
+  p_value: 0.8725559962255554
+Power_Consumption_kW:
+  drift_status: false
+  p_value: 0.6165648051714532
+Remaining_Useful_Life_days:
+  drift_status: false
+  p_value: 0.08425797430780013
+Sound_dB:
+  drift_status: false
+  p_value: 0.6463367181986086
+Temperature_C:
+  drift_status: false
+  p_value: 0.5064550367651494
+Vibration_mms:
+  drift_status: false
+  p_value: 0.7263334273391435

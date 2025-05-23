@@ -43,4 +43,3 @@ numerical_features:
 
 categorical_features:
   - Machine_Type: category
-  - AI_Supervision: category

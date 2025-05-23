@@ -12,9 +12,11 @@ def read_yaml_file(file_path : str) -> dict:
     except Exception as e:
         raise e
     
+    
+    
 
 
-def raise_yaml(file_path : str, content : object, replace : bool = False) -> None:
+def write_yaml(file_path : str, content : object, replace : bool = False) -> None:
     
     try:
         if replace :
@@ -79,3 +81,7 @@ def load_numpy_array_data(file_path: str) -> np.array:
         
     except Exception as e:
         raise  e
+    
+    
+    
+    
