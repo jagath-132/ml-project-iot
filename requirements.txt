@@ -16,4 +16,5 @@ python-dotenv
 PyYAML
 Flask
 dagshub
+streamlit
 -e .
