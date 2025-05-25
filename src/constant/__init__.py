@@ -6,7 +6,7 @@ import numpy as np
 
 CLASSIFICATION_TARGET_COLUMN = "Failure_Within_7_Days"
 
-REGRESSION_TARGET_COLUMN = "emaining_Useful_Life_days"
+REGRESSION_TARGET_COLUMN = "Remaining_Useful_Life_days"
 
 PIPPLELINE_NAME = ""
 
@@ -72,3 +72,17 @@ DATA_TRANSFORMATION_TEST_FILE_PATH: str = "test.npy"
 TRAIN_REGRESSOR_FILE_NAME: str = "train_reg.csv"
 TEST_REGRESSOR_FILE_NAME: str = "test_reg.csv"
 PREPROCESSING_OBJECT_FILE_NAME = "preprocessing.pkl"
+
+
+
+
+"""
+Model Trainer ralated constant start with MODE TRAINER VAR NAME
+"""
+
+MODEL_TRAINER_DIR_NAME: str = "model_trainer"
+MODEL_TRAINER_TRAINED_MODEL_DIR: str = "trained_model"
+MODEL_TRAINER_TRAINED_CLASSIFI_MODEL_NAME: str = "model_classification.pkl"
+MODEL_TRAINER_TRAINED_REGRESS_MODEL_NAME: str = "model_regression.pkl"
+MODEL_TRAINER_EXPECTED_SCORE: float = 0.9
+MODEL_TRAINER_OVER_FIITING_UNDER_FITTING_THRESHOLD: float = 0.05

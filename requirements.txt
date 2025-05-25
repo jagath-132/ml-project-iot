@@ -15,4 +15,5 @@ pymongo
 python-dotenv
 PyYAML
 Flask
+dagshub
 -e .
